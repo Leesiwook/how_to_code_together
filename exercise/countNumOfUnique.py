@@ -7,5 +7,6 @@ def countNumOfUnique(int_list):
     Returns:
         [int] -- [number of diff int]
     """
-    
+    set_of_number = set(int_list)
+    num_of_uniq = len(set_of_number)
     return num_of_uniq
