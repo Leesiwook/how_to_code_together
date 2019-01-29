@@ -7,5 +7,9 @@ def readInputTextFile(filename):
     Returns:
         [list of int] -- [input list]
     """
-    
+    with open(filename, 'r') as f:
+        content = f.read()
+
+    str_list = content.split()
+    int_list = [int(s) for s in str_list]
     return int_list
