@@ -14,6 +14,6 @@ def remainOddOrEven(int_list):
                 modified_list.append(i)
     else:
         for j in int_list:
-            if i%2 ==1:
+            if j%2 ==1:
                 modified_list.append(j)
     return modified_list
