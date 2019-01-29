@@ -13,6 +13,10 @@ def myOwnCounter(filename):
     Returns:
         [int] -- [result]
     """
+    a1=readInputTextFile(filename)
+    a2=deleteOutlier(a1)
+    a3=remainOddOrEven(a2)
+    num_of_uniq=countNumOfUnique(a3)
     
     return num_of_uniq
 
