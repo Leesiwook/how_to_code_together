@@ -1,4 +1,5 @@
 def deleteOutlier(int_list):
+    modified_list=[]
     """Delelte outlier (not 10-20) int
     
     Arguments:
